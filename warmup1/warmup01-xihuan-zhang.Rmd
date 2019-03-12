@@ -1,0 +1,75 @@
+---
+title: "warmup01-xihuan-zhang"
+output: github_document 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#star wars
+#Include one of the character's quote using a markdown blockquote.
+
+
+
+>Jarek Yeager: "You can work as a mechanic on my team. But when it comes to your mission as a spy, I don't want anything to do wity it."
+
+#Include an image of the character.
+![image of Jarek Yeager](https://vignette.wikia.nocookie.net/starwars/images/d/dd/Jarek.jpg/revision/latest?cb=20180905013807)
+
+#Use a markdown table with two columns to include things like species, gender, color,etc.
+Jarek Yeager|Description
+---|---
+Species|Human
+Gender|Male
+Hair color|Black,graying
+Eye color|Brown
+Skin color|Dark
+
+#Cooking Recipe
+#Use an unordered list(of bullets) to list the ingredients.
+
+* 2 cups plus 3 tablespoons (285 grams) all-purpose flour
+* 1 1/2 teaspoons baking soda
+* 1/2 teaspoon fine sea salt
+* 1 cup (200 grams) granulated sugar
+* 1/2 cup (110 grams) coconut oil, warmed just enough to liquefy
+* 1 1/2 cups full- or low-fat coconut milk (see Note)
+* 1 tablespoon (15 ml) plain vinegar
+
+#Use another unordered list to list any "special"kitchen tools that are needed.
+* Oven
+* Pan
+
+#Describe the steps of the recipe
+
+> Heat oven to 350 degrees F. Line the bottom of 9-inch round cake pan with a fitted round of parchment paper and coat the bottoms and sides with nonstick cooking spray.
+
+> Whisk together flour, baking soda, salt and granulated sugar in the bottom of a large mixing bowl. Add coconut oil, coconut milk, and vinegar and whisk until batter is smooth.
+
+> Pour into prepared pan. Bake for 25 to 30 minutes [updated to note: it’s sounding in the comments like it’s taking some people a bit longer — it’s not done until the center is set, even if it’s longer than it took me], or until the top is springy and a tester inserted in the center comes out batter-free. Cool the cake in the pan on a wire rack for 10 minutes, then cut around it with a knife to ensure it is loosened and flip it out onto a cooling rack to cool the rest of the way.
+
+> If you wish to make a glaze: Whisk together 3/4 cup powdered sugar with 1 to 2 tablespoons of the leftover coconut milk, adding a little at a time, until it is smooth but not too runny. Add a pinch of salt, if you wish. Once cake is fully cool, spread over the top of the cake and smooth to the edges with a knife or small offset spatula, where it will find its way down the sides decoratively on its own. I added some white confetti sprinkles, but toasted coconut chips would be nice here too.
+
+#Include an image to show the appearance of the meal.
+![image of the meal](https://smittenkitchendotcom.files.wordpress.com/2019/01/plush-coconut-cake-vegan.jpg?w=1500)
+
+#Is there an special season of the year for it?
+> No.
+
+#Are there variations of the recipe? Using other ingredients?
+> Yes.
+
+#Euclidean Distance
+> Definition
+
+> The Euclidean distance between points p and q is the length of the line segment connecting them ($\overline{\textbf{p,q}}$).
+>In Cartesian coordinates, if $\mathbf{p} = \left(p_{1}, p_{2}, \ldots , p_{n} \right)$  and $\mathbf{q} = \left(q_{1}, q_{2} , \dots , q_{n} \right)$ are two points in Euclidean n-space, then the distance (d) from \mathbf{p } to \mathbf{q}, or from \mathbf{q} to \mathbf{ p } is given by the Pythagorean formula:
+
+\begin{aligned}d (\mathbf{p} , \mathbf {q} ) = d ( \mathbf{q} , \mathbf{p} ) & = \sqrt { \left( q_{1} - p_{1} \right) ^ {2} + \left( q_{2} - p_{2} \right) ^ {2} + \cdots + \left( q_{n} - p_{n} \right) ^ {2} } \\ & = \sqrt { \sum_{i = 1 } ^ {n} \left( q_{i} - p_{i} \right) ^ {2} } \end{aligned}
+
+>The position of a point in a Euclidean $n$ -space is a Euclidean vector. So, p and $q$ may be represented as Euclidean vectors, starting from the origin of the space (initial point) with their tips (terminal points) ending at the two points. The Euclidean norm, or Euclidean length, or magnitude of a vector measures the length of the vector: 
+
+$\| \mathbf {p} \| = \sqrt { p _ {1} ^ {2} + p _ {2} ^ {2} + \cdots + p _{n} ^ {2}} = \sqrt { \mathbf {p} \cdot \mathbf {p}}$
+
+>where the last expression involves the dot product.
