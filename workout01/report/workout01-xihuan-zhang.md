@@ -17,7 +17,7 @@ library(dplyr)
     ## 
     ##     intersect, setdiff, setequal, union
 
-<img src="/Users/zhangxihuan/Desktop/workout01/images/gsw-shot-chart.png" width="80%" style="display: block; margin: auto;" />
+<img src="../images/gsw-shot-chart.png" width="100%" style="display: block; margin: auto;" />
 
 5.1)Effective Shooting Percentage
 
