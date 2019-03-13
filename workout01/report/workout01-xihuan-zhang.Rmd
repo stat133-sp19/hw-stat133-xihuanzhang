@@ -8,6 +8,7 @@ output: github_document
 library(dplyr)
 ```
 
+
 ```{r out.width="80%", echo=FALSE, fig.align='center'}
 knitr::include_graphics("/Users/zhangxihuan/Desktop/workout01/images/gsw-shot-chart.png", auto_pdf = getOption("knitr.graphics.auto_pdf", FALSE) )
 ```
