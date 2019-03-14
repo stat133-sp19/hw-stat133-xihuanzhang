@@ -148,6 +148,7 @@ desc(perc_made))
     ## 5 Graymond Green   232    74     0.319
 
 ![Klay Thompson](https://media.gettyimages.com/photos/klay-thompson-of-the-golden-state-warriors-poses-for-a-portrait-with-picture-id970201180)
+
 <img src="../../../playerstats/Klay.jpg" width="100%" style="display: block; margin: auto;" />
 
 From the tables above, we can see that Klay Thompson did 640 two points shots which is the most among five players, and succeed in the percentage of 51.4%. For three points shots, Klay made the second most shots and had got the highest success rate. It’s obvious that Klay’s strategy is to make more shots. Comparing to his two points shot, he did better in three points shots. ![Andre Iguodala](https://www.gannett-cdn.com/-mm-/7349fb2ec8fa6eae87731d37a08df41a4a952655/c=320-223-4187-2408/local/-/media/2018/05/31/USATODAY/USATODAY/636633217332508663-2018-05-30-Andre-Iguodala.jpg?width=3200&height=1680&fit=crop)
@@ -156,16 +157,20 @@ From the tables above, we can see that Klay Thompson did 640 two points shots wh
 
 Although Andre Iguodala made 210 two points shots which is the least among five players, he got the highest success rate, 63.8%. Andre also did the least three points shots with a success rate of 36%. Andre did much better in two points shots than three points shots. He focused on the quality more than quantity.
 ![Kevin Durant](https://static01.nyt.com/images/2017/04/07/sports/07durant-web1/07durant-web1-articleLarge.jpg?quality=75&auto=webp&disable=upscale)
+
 <img src="../../../playerstats/Kevin.jpg" width="100%" style="display: block; margin: auto;" />
 
 Kevin Durant got the second place in two points shots success rate and the third place in three points rate. Meanwhile, he attempted more two points shots than three points shots. It turns out that he tended to be a two points shots player. However, both the three points and two points success rate of current season are less than the 2016-2017 season.
 
 ![Stephen Curry](https://cdn.vox-cdn.com/thumbor/QnyGzZIeq92Mba_HwcQ87qUmBzU=/0x0:3915x2613/1200x800/filters:focal(1706x113:2332x739)/cdn.vox-cdn.com/uploads/chorus_image/image/59594853/usa_today_10816472.1525210208.jpg)
+
 <img src="../../../playerstats/Stephen.jpg" width="100%" style="display: block; margin: auto;" />
 
 Stephen Curry is a superstar even in such a famous team which has many talented players. As it shows in the table, Stephen did a good job in both two points shots and three points shots. For many players, they got a decreasing success rate when they have more attempts. However, Stephen kept a high success rate at the same time as having many attempts.
 ![Draymond Green](https://mk0slamonlinensgt39k.kinstacdn.com/wp-content/uploads/2017/11/Featured-Draymond.jpg)
+
 <img src="../../../playerstats/Draymond.jpg" width="100%" style="display: block; margin: auto;" />
+
 
 Draymond Green is also an excellent player. It seems that he got the lowest success rate in both kinds of shots among five players, but his performance is still much better than many players from other teams. The reason he ranked at such a place is that the other four players are the best among top players. He makes huge progress in the current season where he got a 54.9% success rate on two points shots. It is highly likely that he will achieve a higher overall success rate than the 2016-2017 season.
 
@@ -174,7 +179,6 @@ Draymond Green is also an excellent player. It seems that he got the lowest succ
 -   Conclusion: The GSW has a similar statistic as the 2016-2017 season where they won the championship, so they are a strong candidate for the champion in the 2018-2019 season. Although they are facing a very tough fight, they are still able to improve the situation as long as the coach Kerr set a powerful strategy and all players do as well as usual. Plus, with Andrew Bogot’s return, the Warriors have an even higher possibility to win the championship. In the recent Warriors and Nuggets game, the Warriors created the record of 51-point first quarter and a 142-111 victory at the end. In general, the chances of the Warriors winning this season are great, but it also depends on the Warriors performance in the playoffs. The result gained from past data can only be an estimation or a prediction but can’t be a conclusion since the situation changes in every game. We can never jump to the conclusion before collecting all the data. Do you think the GSW could win the champion again? Who is the MVP in your mind? Let’s stay focus on the Warriors’ performance together! Good luck, Warriors!
 
 -   references:
-
     <https://github.com/ucb-stat133/stat133-hws>
     <https://www.basketball-reference.com/teams/GSW/2019.html> <https://www.basketball-reference.com/players/c/curryst01.html>
     <https://www.basketball-reference.com/players/t/thompkl01.html>

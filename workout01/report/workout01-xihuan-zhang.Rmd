@@ -107,7 +107,6 @@ From the tables above, we can see that Klay Thompson did 640 two points shots wh
 knitr::include_graphics('../../../playerstats/Andre.jpg')
 ```
 
-
 Although Andre Iguodala made 210 two points shots which is the least among five players, he got the highest success rate, 63.8%. Andre also did the least three points shots with a success rate of 36%. Andre did much better in two points shots than three points shots. He focused on the quality more than quantity.     
 ![Kevin Durant](https://static01.nyt.com/images/2017/04/07/sports/07durant-web1/07durant-web1-articleLarge.jpg?quality=75&auto=webp&disable=upscale)         
 ```{r out.width="100%", echo=FALSE, fig.align='center'}
