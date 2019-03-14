@@ -63,3 +63,4 @@ write.csv(total, "../data/shots-data.csv")
 sink(file = "../output/shots-data-summary.txt")
 summary(total)
 sink()
+
