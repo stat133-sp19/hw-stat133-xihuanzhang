@@ -118,6 +118,7 @@ Draymond Green is also an excellent player. It seems that he got the lowest succ
 * Conclusion: The GSW has a similar statistic as the 2016-2017 season where they won the championship, so they are a strong candidate for the champion in the 2018-2019 season. Although they are facing a very tough fight, they are still able to improve the situation as long as the coach Kerr set a powerful strategy and all players do as well as usual. Plus, with Andrew Bogot’s return, the Warriors have an even higher possibility to win the championship. In the recent Warriors and Nuggets game, the Warriors created the record of 51-point first quarter and a 142-111 victory at the end. In general, the chances of the Warriors winning this season are great, but it also depends on the Warriors performance in the playoffs. The result gained from past data can only be an estimation or a prediction but can’t be a conclusion since the situation changes in every game. We can never jump to the conclusion before collecting all the data. Do you think the GSW could win the champion again? Who is the MVP in your mind? Let’s stay focus on the Warriors’ performance together! Good luck, Warriors!
 
 
+
 * references:        
 https://github.com/ucb-stat133/stat133-hws      
 https://www.basketball-reference.com/teams/GSW/2019.html  https://www.basketball-reference.com/players/c/curryst01.html    
