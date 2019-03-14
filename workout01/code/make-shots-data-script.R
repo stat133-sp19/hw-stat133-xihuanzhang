@@ -12,7 +12,7 @@ klay <- read.csv(file= "/Users/zhangxihuan/Desktop/workout01/data/klay-thompson.
 stephen <- read.csv(file= "/Users/zhangxihuan/Desktop/workout01/data/stephen-curry.csv", stringsAsFactors = FALSE)
 
 andre$name <- c("Andre Iguodala")
-draymond$name <- c("Graymond Green")
+draymond$name <- c("Draymond Green")
 kevin$name <- c("Kevin Durant")
 klay$name <- c("Klay Thompson")
 stephen$name <- c("Stephen Curry")
