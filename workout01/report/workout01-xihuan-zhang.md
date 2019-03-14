@@ -151,6 +151,7 @@ desc(perc_made))
 
 <img src="../../../playerstats/Klay.jpg" width="100%" style="display: block; margin: auto;" />
 
+
 From the tables above, we can see that Klay Thompson did 640 two points shots which is the most among five players, and succeed in the percentage of 51.4%. For three points shots, Klay made the second most shots and had got the highest success rate. It’s obvious that Klay’s strategy is to make more shots. Comparing to his two points shot, he did better in three points shots. ![Andre Iguodala](https://www.gannett-cdn.com/-mm-/7349fb2ec8fa6eae87731d37a08df41a4a952655/c=320-223-4187-2408/local/-/media/2018/05/31/USATODAY/USATODAY/636633217332508663-2018-05-30-Andre-Iguodala.jpg?width=3200&height=1680&fit=crop)
 
 <img src="../../../playerstats/Andre.jpg" width="100%" style="display: block; margin: auto;" />
