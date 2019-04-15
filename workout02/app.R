@@ -28,7 +28,7 @@ ui <- fluidPage(
            sliderInput("years",
                        "Years",
                        min = 0,
-                       max = 50,
+                       max = 50, 
                        step = 1,
                        value = 10)),
     column(4,
