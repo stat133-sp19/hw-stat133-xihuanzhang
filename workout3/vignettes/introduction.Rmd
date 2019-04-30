@@ -1,0 +1,102 @@
+---
+title: "Vignette Title"
+author: "Vignette Author"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r echo = FALSE, message= FALSE}
+knitr::opts_chunk$set(collapse = T, comment="#>")
+library(binomial)
+library(ggplot2)
+```
+Vignettes are long form documentation commonly included in packages. Because they are part of the distribution of the package, they need to be as compact as possible. The `html_vignette` output type provides a custom style sheet (and tweaks some options) to ensure that the resulting html is as small as possible. The `html_vignette` format:
+
+- Never uses retina figures
+- Has a smaller default figure size
+- Uses a custom CSS stylesheet instead of the default Twitter Bootstrap style
+
+# Binomial
+
+`"binomial"` is a self-created R package that implements functions for calculating probabilities of a Binomial random variable, and related calculations such as the probability distribution, and expected value, variance, etc.
+
+### 1) Calculate the number of different combinations given certain number of trials and successes.
+
+for example, we play 5 times and expect 2 successes
+```{r}
+bin_choose(n=5,k=2)
+```
+
+### 2) Find the probability given certain number of trials and successes
+
+We generate the bin_probability function using bin_choose function above. Using the functions below, we can calculate the probability of winning 2 times in 5 trials with success probability of 0.5 for each single trial.
+```{r}
+bin_probability(success = 2, trials = 5, prob = 0.5)
+```
+
+### 3) obtain a dataframe given certain number of trials and successes
+
+Using given number of trials and successes, we can obtain a data frame containing all the results(probability) corresponding to consequtive number of trials from 0 to the given number of trials
+
+```{r}
+dis1 <- bin_distribution(trials = 5, prob = 0.5)
+dis1
+```
+
+### 4) Plot the histogram of above dataframe
+
+```{r}
+plot(dis1)
+```
+
+### 5) Calculate the cumulative probability
+
+Using given number of trials and successes, we can obtain a data frame containing all the results(probability and cumulative probability) corresponding to consequtive number of trials from 0 to the given number of trials
+```{r}
+bin_cum<- bin_cumulative(trials = 5, prob = 0.5)
+bin_cum
+```
+
+### 6) Plot the cumulative probability
+
+plot the bin_cum we obtained above.
+```{r}
+plot(bin_cum)
+```
+
+### 7) Create binomial variable using given number of trials and successes
+
+```{r}
+bin_var <- bin_variable(trials=5,prob=0.5)
+bin_var
+```
+
+### 8) Obtain a summary of binomial variable above
+
+```{r}
+bin_sum <- summary(bin_var)
+bin_sum
+```
+
+### 9) Calculate several statistics of binomial variable above
+
+`bin_mean` gives the mean of given binomial distribution.    
+`bin_variance` gives the variance of given binomial distribution.    
+`bin_mode` gives the mode of given binomial distribution.         
+`bin_skewness` gives the skewness of given binomial distribution.        
+`bin_kurtosis` gives the kurtosis of given binomial distribution.  
+
+```{r}
+bin_mean(10,0.5)
+bin_variance(10,0.5)
+bin_mode(10,0.5)
+bin_skewness(10,0.5)
+bin_kurtosis(10,0.5)
+```
+
+
+
