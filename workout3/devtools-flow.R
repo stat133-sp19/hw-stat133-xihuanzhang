@@ -12,4 +12,3 @@ devtools::build()             # build bundle
 devtools::install()           # install package
 devtools::check()             # check
 
-devtools::use_build_ignore(c("Meta","doc",".Rproj.user"))
