@@ -1,5 +1,6 @@
 # Binomial Related Functions
 
+
 # 1.1
 # title Check probability value function
 # description Check if the probability value is valid
@@ -25,7 +26,7 @@ check_prob <- function(prob){
 #check_trials(0.5)
 #check_trials(3)
 check_trials <- function(trials){
-  if((trials >= 0) & (trials%%1 == 0 )){
+  if((trials > 0) & (trials%%1 == 0 )){
     return(TRUE)
   }else{
     stop("invalid trials value")
@@ -42,7 +43,7 @@ check_trials <- function(trials){
 #check_success(5,1)
 #check_success(1,5)
 check_success <- function(success,trials){
-  if(success>=0 & (success%%1 == 0) & success<= trials){
+  if((success >=0 )& (success%%1 == 0) &(check_trials(trials))&(success<= trials)){
     return(TRUE)
   }else{
     stop("invalid success value")
@@ -58,6 +59,8 @@ check_success <- function(success,trials){
 #examples
 #aux_mean(10, 0.3)
 aux_mean <- function(trials, prob){
+  check_trials(trials)
+  check_prob(prob)
   return(trials*prob)
 }
 
@@ -69,6 +72,8 @@ aux_mean <- function(trials, prob){
 #examples
 #aux_variance(10, 0.3)
 aux_variance <- function(trials, prob){
+  check_trials(trials)
+  check_prob(prob)
   return(trials*prob*(1-prob))
 }
 
@@ -105,7 +110,9 @@ aux_mode <- function(trials, prob){
 #examples
 #aux_skewness(10, 0.3)
 aux_skewness <- function(trials, prob){
-  skewness = (1-2*prob)/sqrt(trials * prob * (1- prob))
+  check_trials(trials)
+  check_prob(prob)
+  skewness <- (1-2*prob)/sqrt(trials * prob * (1- prob))
   return(skewness)
 }
 
@@ -118,6 +125,8 @@ aux_skewness <- function(trials, prob){
 #examples
 #aux_kurtosis(10, 0.3)
 aux_kurtosis <- function(trials, prob){
+  check_trials(trials)
+  check_prob(prob)
   kurtosis= (1 - 6 * prob * (1-prob) )/(trials * prob * (1-prob))
   return(kurtosis)
 }
@@ -135,10 +144,10 @@ aux_kurtosis <- function(trials, prob){
 # bin_choose(5,1:3)
 #' @export
 bin_choose <- function(n,k){
-  if(k>n){
-    stop("k cannot be greater than n")
-  }else{
+  if (check_success(k,n)){
     return(factorial(n)/(factorial(k)*factorial(n-k)))
+  }else{
+    stop("invalid input")
   }
 }
 
@@ -156,11 +165,11 @@ bin_choose <- function(n,k){
 #' bin_probability(success = 55, trials = 100, prob = 0.45)
 #' @export
 bin_probability <- function(success, trials, prob){
-  if(check_trials(trials)!= TRUE){
+  if(!check_trials(trials)){
     stop("invalid trials value")
-  }else if(check_prob(prob) != TRUE){
+  }else if(!check_prob(prob)){
     stop("invalid probability value")
-  }else if(check_success(success, trials) != TRUE){
+  }else if(!check_success(success, trials) ){
     stop("invalid success value")
   }else{
     bin_choose(trials, success)*(prob^(success))*((1-prob)^(trials-success))
@@ -213,8 +222,8 @@ plot.bindist <- function(x){
 #' bin_cumulative(5,0.5)
 
 bin_cumulative<-function(trials,prob){
-  bin_dist<-bin_distribution(trials,prob)
   cum<-c()
+  bin_dist<-bin_distribution(trials,prob)
   for (i in c(1:length(bin_dist$probability))){
     if (i==1){
       cum[i]<-bin_dist$probability[i]
